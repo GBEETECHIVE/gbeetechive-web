@@ -187,7 +187,7 @@
                                  <li class="menu-item-has-children">
                                     <a href="#">Portfolio</a>
                                     <ul class="sub-menu">
-                                        <li><a href="{{ route('recent_projects') }}">Software Development</a>
+                                        <li><a href="{{ route('medical_billing') }}">Medical Billing </a>
                                         </li>
                                         <li><a href="{{ route('recent_projects') }}">Web Development</a> </li>
                                         <li><a href="{{ route('recent_projects') }}">Analytic Solutions</a> </li>

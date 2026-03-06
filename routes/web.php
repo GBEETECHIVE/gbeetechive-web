@@ -39,3 +39,6 @@ Route::get('/error', function () {
 Route::get('/recent-projects', function () {
     return view('recent_projects');
 })->name('recent_projects');
+Route::get('/medical-billing', function () {
+    return view('medical_billing');
+})->name('medical_billing');
