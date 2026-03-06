@@ -184,6 +184,18 @@
                                         <li><a href="{{ route('data_center') }}">Graphic Design</a> </li>
                                     </ul>
                                 </li>
+                                 <li class="menu-item-has-children">
+                                    <a href="#">Portfolio</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="{{ route('recent_projects') }}">Software Development</a>
+                                        </li>
+                                        <li><a href="{{ route('recent_projects') }}">Web Development</a> </li>
+                                        <li><a href="{{ route('recent_projects') }}">Analytic Solutions</a> </li>
+                                        <li><a href="{{ route('recent_projects') }}">Cloud and DevOps</a></li>
+                                            <li><a href="{{ route('recent_projects') }}">Product Design</a> </li>
+                                            <li><a href="{{ route('recent_projects') }}">Data Center</a> </li>
+                                    </ul>
+                                </li>
                                 <li class="menu-item-has-children">
                                     <a href="#">Pages</a>
                                     <ul class="sub-menu">

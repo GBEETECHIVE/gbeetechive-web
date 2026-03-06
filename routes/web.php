@@ -36,3 +36,6 @@ Route::fallback(function () {
 Route::get('/error', function () {
     return view('error');
 })->name('error');
+Route::get('/recent-projects', function () {
+    return view('recent_projects');
+})->name('recent_projects');
