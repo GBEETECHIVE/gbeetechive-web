@@ -348,8 +348,14 @@
            }
 
            .recent-project-carousel .owl-dots {
-             text-align: center;
-             margin-top: 18px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               margin-top: 18px;
+               width: 100%;
+               position: relative;
+               left: 50%;
+               transform: translateX(-50%);
            }
 
            .recent-project-carousel .owl-dot span {
